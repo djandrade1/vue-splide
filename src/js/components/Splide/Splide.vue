@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts">
-import type { ComponentConstructor, Options, Splide } from '@splidejs/splide';
+import { type ComponentConstructor, type Options, Splide } from '@splidejs/splide';
 import { computed, defineComponent, onBeforeUnmount, onMounted, type PropType, provide, type Ref, ref, watch } from 'vue';
 import { EVENTS } from '../../constants/events';
 import { SPLIDE_INJECTION_KEY } from '../../constants/keys';
